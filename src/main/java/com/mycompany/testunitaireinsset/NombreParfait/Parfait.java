@@ -59,6 +59,7 @@ public class Parfait {
     // Dans ce cas, il faut ajouter i comme diviseur.
     if (i * i == val) {
       temp[position] = i;
+      System.out.println(temp[position]);
       position++;
     }
     // On a trouvé position diviseurs pour le nombre
@@ -89,6 +90,5 @@ public class Parfait {
         }
 
     }
-    
     
 }
