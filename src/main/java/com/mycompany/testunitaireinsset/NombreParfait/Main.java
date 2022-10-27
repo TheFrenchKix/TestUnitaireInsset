@@ -22,12 +22,12 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Veuillez saisir un nombre :");
+//        System.out.println("Veuillez saisir un nombre :");
 
         String str = sc.nextLine();
                  
        Parfait e = new Parfait();
-       System.out.println(e.formaterResult(e.estParfait(Long.parseLong(str)), Long.parseLong(str)));
+//       System.out.println(e.formaterResult(e.estParfait(Long.parseLong(str)), Long.parseLong(str)));
         
     }
 

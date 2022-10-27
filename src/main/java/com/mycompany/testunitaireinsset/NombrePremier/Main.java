@@ -21,15 +21,15 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Veuillez saisir un nombre :");
+//        System.out.println("Veuillez saisir un nombre :");
 
         String str = sc.nextLine();
         NombrePremier np = new NombrePremier();
 
         if (np.isNombreValide(str)) {
-            System.out.println(np.formaterResult(np.isPremier(Integer.parseInt(str)), Integer.parseInt(str)));
+//            System.out.println(np.formaterResult(np.isPremier(Integer.parseInt(str)), Integer.parseInt(str)));
         } else {
-            System.out.println("format incorrect");
+//            System.out.println("format incorrect");
         }
     
     }

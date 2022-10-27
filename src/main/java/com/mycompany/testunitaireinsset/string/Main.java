@@ -22,21 +22,21 @@ public class Main {
         // TODO Auto-generated method stub
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Veuillez saisir une chaine :");
+//        System.out.println("Veuillez saisir une chaine :");
 
         String str = sc.nextLine();
         StringUtils strUtils = new StringUtils();
         if (strUtils.isChaineValide(str)) {
             //compte le nombre d'occurence
             for (Map.Entry<String, Integer> e : strUtils.compterOccurences(str).entrySet()) {
-                System.out.println("Le caractère " + e.getKey() + " apparaît " + e.getValue() + " fois.");
+//                System.out.println("Le caractère " + e.getKey() + " apparaît " + e.getValue() + " fois.");
             }
             if (strUtils.isPalindrome(str)) {
-                System.out.println("La chaine " + str + " est un palindrome ");
-                System.out.println("La chaine inversé : " + strUtils.inverse(str));
+//                System.out.println("La chaine " + str + " est un palindrome ");
+//                System.out.println("La chaine inversé : " + strUtils.inverse(str));
             } else {
-                System.out.println("La chaine " + str + " n'est pas un palindrome ");
-                System.out.println("La chaine inversé : " + strUtils.inverse(str));
+//                System.out.println("La chaine " + str + " n'est pas un palindrome ");
+//                System.out.println("La chaine inversé : " + strUtils.inverse(str));
             }
         }
     }

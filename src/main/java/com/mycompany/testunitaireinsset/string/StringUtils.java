@@ -14,6 +14,10 @@ import java.util.TreeMap;
  */
 public class StringUtils {
 
+    /**
+     * Vide pour stocker des fonctions
+     * 
+     */
     public StringUtils() {
     }
 
@@ -40,7 +44,7 @@ public class StringUtils {
     public String inverse(String str) {
 
         int longueur = str.length();
-        StringBuffer envers = new StringBuffer();
+        StringBuilder envers = new StringBuilder();
         int i;
 
         for (i = 0; i < longueur; i++) {
@@ -76,7 +80,6 @@ public class StringUtils {
                 }
             }
             map.put(String.valueOf(str.charAt(i)), nombreOccurrencesCharActuel);
-            System.out.println(map);
         }
         return map;
 

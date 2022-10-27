@@ -46,7 +46,6 @@ public class Parfait {
     // jusqu'à racine carrée de val, non compris.
     for (i = 2; i * i < val; i++) {
       // On verra que this représente l'entier à qui on envoie le message.
-      // if (estDivisiblePar(i) convient aussi.
       if (this.estDivisiblePar(i,val)) {
         // Si i divise val, val / i le divise aussi.
         temp[position] = i;
@@ -59,7 +58,6 @@ public class Parfait {
     // Dans ce cas, il faut ajouter i comme diviseur.
     if (i * i == val) {
       temp[position] = i;
-      System.out.println(temp[position]);
       position++;
     }
     // On a trouvé position diviseurs pour le nombre
